@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import avatarPlaceholder from "@/assets/hp.png";
+import resume from "@/assets/himanshu12318087.pdf";
 
 const textContainer = {
   hidden: { opacity: 0 },
@@ -53,6 +54,7 @@ const HeroSection = () => {
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
             >
+              
               Get in Touch
             </motion.a>
             <motion.a
@@ -63,7 +65,22 @@ const HeroSection = () => {
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-accent transition-colors"
             >
-              View Projects
+
+
+View Projects
+        </motion.a>
+
+        <motion.a
+          href="https://drive.google.com/file/d/1xJNYV2AEui3WBfxbrk12dHm6NwsR6Cgs/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-accent transition-colors"
+        >
+
+
+Download CV 
             </motion.a>
           </motion.div>
           <div className="flex gap-4">
